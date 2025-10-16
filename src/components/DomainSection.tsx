@@ -84,7 +84,7 @@ export default function DomainSection() {
                       </div>
                       <div>
                         <h4 className="text-lg font-semibold mb-1 text-gray-900">Injury Prevention Challenges</h4>
-                        <p className="text-gray-600">Swimming injuries (40-91% shoulder, 86% breaststroker's knee) often go undetected until chronic damage occurs.</p>
+                        <p className="text-gray-600">Swimming injuries (40-91% shoulder, 86% breaststroker&lsquo;s knee) often go undetected until chronic damage occurs.</p>
                       </div>
                     </div>
                     
@@ -101,7 +101,7 @@ export default function DomainSection() {
                   
                   <div className="mt-8 pt-6 border-t border-gray-100">
                     <p className="text-gray-700 italic">
-                      &quot;These challenges limit athletes' potential and increase injury risk, creating barriers to optimal performance in competitive swimming.&quot;
+                      &quot;These challenges limit athletes&lsquo; potential and increase injury risk, creating barriers to optimal performance in competitive swimming.&quot;
                     </p>
                   </div>
                 </div>

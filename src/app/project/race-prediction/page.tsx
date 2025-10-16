@@ -4,7 +4,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { ArrowLeft, Target, Check, ExternalLink, Activity, TrendingUp, BarChart, LineChart, AlertTriangle, Zap } from "lucide-react";
+import { ArrowLeft, Target, Check, ExternalLink, Activity, TrendingUp, BarChart, LineChart, AlertTriangle } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
