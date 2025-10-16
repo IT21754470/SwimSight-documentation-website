@@ -3599,7 +3599,7 @@ const documents = [
     title: "Project Proposal",
     description: "Initial research project proposal including problem statement and objectives.",
     icon: <FileText className="h-10 w-10" />,
-    link: "https://drive.google.com/drive/folders/1ZoMC-1Shay0hw5pxHSxG5GrIKyfYVt0f?usp=sharing",
+    link: "https://drive.google.com/drive/folders/1eqLU88o7ALVI6355jxIF8VFl3huokwMc?usp=sharing",
     color: "var(--color-primary-light)"
   },
   {
@@ -3620,14 +3620,14 @@ const documents = [
     title: "Research Paper",
     description: "Academic paper detailing the methodology, experiments, and outcomes.",
     icon: <Book className="h-10 w-10" />,
-    link: "https://drive.google.com/file/d/19aMGRKijwX5LLJdjddWzKU1vnygGFNWs/view?usp=sharing",
+    link: "https://drive.google.com/drive/folders/1sjhcYN1Q4kkDu4cu0T-VcvCgNePPLcMl?usp=sharing",
     color: "var(--color-accent)"
   },
   {
     title: "Final Reports",
     description: "Comprehensive documentation of the entire research project.",
     icon: <FileSpreadsheet className="h-10 w-10" />,
-    link: "https://drive.google.com/drive/folders/1Kp6md9pZyfcVi4ycUSohb5GKEVWwPAMG?usp=sharing",
+    link: "https://drive.google.com/drive/folders/1zilSA0_aFerI8a7vdDfIwWWyRlqEZePf?usp=sharing",
     color: "var(--color-primary)"
   },
   {

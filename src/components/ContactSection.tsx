@@ -14,33 +14,36 @@ export default function ContactSection() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState("");
   
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    setError("");
-    
-    const form = e.currentTarget;
-    const formData = new FormData(form);
-    
-    try {
-      const response = await fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(formData as any).toString(),
-      });
-      
-      if (response.ok) {
-        setFormSubmitted(true);
-        form.reset();
-      } else {
-        throw new Error("Failed to send message");
-      }
-    } catch (err) {
-      setError("Failed to send message. Please try again.");
-    } finally {
-      setIsSubmitting(false);
+const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
+  setIsSubmitting(true);
+  setError("");
+
+  const form = e.currentTarget;
+  const formData = new FormData(form);
+  // ensure form-name present:
+  if (!formData.get("form-name")) formData.set("form-name", "contact");
+
+  try {
+    const response = await fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData as any).toString(),
+    });
+
+    if (response.ok) {
+      setFormSubmitted(true);
+      form.reset();
+    } else {
+      throw new Error("Failed to send message");
     }
-  };
+  } catch (err) {
+    setError("Failed to send message. Please try again.");
+  } finally {
+    setIsSubmitting(false);
+  }
+};
+
 
   return (
     <section ref={ref} className="py-24 bg-gray-50">
@@ -94,7 +97,7 @@ export default function ContactSection() {
                   </div>
                   <div className="ml-4">
                     <p className="font-medium text-gray-900">Email</p>
-                    <p className="text-gray-600 mt-1">it21166792@my.sliit.lk</p>
+                    <p className="text-gray-600 mt-1">it21754470@my.sliit.lk</p>
                   </div>
                 </div>
                 
