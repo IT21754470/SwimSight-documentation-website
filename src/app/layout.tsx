@@ -17,9 +17,9 @@ export const metadata: Metadata = {
   title: "SwimSight Research",
   description: "AI-Powered Swimming Performance Analytics Platform",
   icons: [
-    { rel: "icon", url: "/leaf.png" },
-    { rel: "shortcut icon", url: "/leaf.png" },
-    { rel: "apple-touch-icon", url: "/leaf.png" }
+    { rel: "icon", url: "/logo.png" },
+    { rel: "shortcut icon", url: "/logo.png" },
+    { rel: "apple-touch-icon", url: "/logo.png" }
   ],
 };
 
@@ -32,8 +32,8 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* This is a fallback in case the metadata approach doesn't work */}
-        <link rel="icon" href="/leaf.png" />
-        <link rel="shortcut icon" href="/leaf.png" />
+        <link rel="icon" href="/logo.png" />
+        <link rel="shortcut icon" href="/logo.png" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

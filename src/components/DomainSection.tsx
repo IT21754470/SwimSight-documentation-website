@@ -49,7 +49,7 @@ export default function DomainSection() {
               {/* Left side - Image */}
               <div className="relative h-64 lg:h-auto">
                 <Image
-                  src="/domain-hero.png"  
+                  src="/img4.jpg"  
                   alt="Swimming performance analytics technology"
                   fill
                   className="object-cover"
@@ -234,7 +234,7 @@ export default function DomainSection() {
                 <div className="relative w-full h-auto mb-8">
                   <div className="relative aspect-video w-full rounded-xl overflow-hidden border-2 border-gray-200 bg-gray-50">
                     <Image
-                      src="/system-diagram.jpg"
+                      src="/system-diagram.png"
                       alt="SwimSight System Architecture Diagram"
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 70vw"

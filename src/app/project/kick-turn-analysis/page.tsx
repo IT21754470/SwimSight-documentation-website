@@ -53,7 +53,7 @@ export default function MarketPredictionPage() {
               className="relative rounded-2xl overflow-hidden shadow-2xl"
             >
               <Image
-                src="/market-prediction.png"
+                src="/img42.jpg"
                 alt="Kick & Turn Analysis System"
                 width={1000}
                 height={700}

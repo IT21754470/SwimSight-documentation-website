@@ -46,7 +46,7 @@ export default function Banner() {
       {/* Static Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/banner1.png"
+          src="/img15.jpg"
           alt="SwimSight Banner"
           fill
           sizes="100vw"
@@ -80,7 +80,7 @@ export default function Banner() {
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <div className="inline-flex items-center gap-2 px-3 py-1 mb-4 md:mb-6 rounded-full text-xs md:text-sm font-medium text-white border border-white/20 backdrop-blur-sm" 
-                   style={{ backgroundColor: 'rgba(46, 125, 50, 0.3)' }}>
+                   style={{ backgroundColor: 'rgba(46, 125, 114, 0.3)' }}>
                 <span className="flex items-center justify-center w-4 h-4 md:w-5 md:h-5 rounded-full bg-white">
                   <Activity className="w-2 h-2 md:w-3 md:h-3" style={{ color: 'var(--color-primary)' }} />
                 </span>

@@ -114,7 +114,7 @@ export default function ContactSection() {
               <div className="mt-10">
                 <h5 className="font-medium text-gray-900 mb-3">Research Areas</h5>
                 <div className="flex flex-wrap gap-2">
-                  {["Machine Learning", "Computer Vision", "Mobile Development", "Agricultural Tech", "Data Science"].map((tag, i) => (
+                  {["Machine Learning", "Computer Vision", "Mobile Development", "Sport Tech", "Data Science"].map((tag, i) => (
                     <span 
                       key={i} 
                       className="px-3 py-1 rounded-full text-sm"

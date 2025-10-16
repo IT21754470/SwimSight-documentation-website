@@ -54,7 +54,7 @@ export default function DiseaseDetectionPage() {
             >
               <div className="absolute inset-0 border-4 rounded-2xl border-primary-light/30 animate-pulse" />
               <Image
-                src="/disease-detection.png"
+                src="/img24.jpg"
                 alt="Performance & Fatigue Intelligence System"
                 width={1000}
                 height={700}

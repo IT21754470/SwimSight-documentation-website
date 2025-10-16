@@ -60,7 +60,7 @@ export default function VideoSection() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="flex items-center gap-3 p-4 rounded-lg bg-white shadow-sm border border-gray-100"
               >
-                <div className="text-green-600">
+                <div className="text-blue-600">
                   {feature.icon}
                 </div>
                 <span className="font-medium text-gray-700">{feature.text}</span>
@@ -144,6 +144,24 @@ export default function VideoSection() {
           </div>
         </motion.div>
 
+        {/* Video Player */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
+          className="mt-12 max-w-5xl mx-auto"
+        >
+          <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-gray-900" style={{ paddingBottom: '56.25%' }}>
+            <iframe
+              className="absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube.com/embed/2JoUbhKsYR0"
+              title="SwimSight App Demo"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        </motion.div>
+
         {/* Call to Action */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -153,7 +171,7 @@ export default function VideoSection() {
         >
           <div className="inline-flex flex-col sm:flex-row gap-4">
             <a
-              href="https://www.youtube.com/watch?v=vjVo22uMZ9g"
+              href="https://www.youtube.com/watch?v=2JoUbhKsYR0"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg font-medium text-white shadow-lg transition-all hover:scale-105"

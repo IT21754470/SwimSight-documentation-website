@@ -24,7 +24,7 @@ export default function AboutSection() {
           >
             <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/banner3.png"
+                src="/img21.jpg"
                 alt="Swimming performance analytics"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"

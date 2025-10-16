@@ -53,7 +53,7 @@ export default function RacePredictionPage() {
               className="relative rounded-2xl overflow-hidden shadow-2xl"
             >
               <Image
-                src="/weather-recommendations.png"
+                src="/img7.jpg"
                 alt="Race Performance Prediction System"
                 width={1000}
                 height={700}

@@ -127,7 +127,7 @@ export default function ResearchResultsSection() {
           >
             <div className="relative h-[480px] rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="/banner2.png"
+                src="/img8.jpg"
                 alt="SwimSight research and development visualization"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"

@@ -53,7 +53,7 @@ export default function HarvestPredictionPage() {
               className="relative rounded-2xl overflow-hidden shadow-2xl"
             >
               <Image
-                src="/harvest-prediction.png"
+                src="/img41.jpg"
                 alt="Injury Detection System"
                 width={1000}
                 height={700}
