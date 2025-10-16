@@ -21,8 +21,6 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
 
   const form = e.currentTarget;
   const formData = new FormData(form);
-  // ensure form-name present:
-  if (!formData.get("form-name")) formData.set("form-name", "contact");
 
   try {
     const response = await fetch("/", {

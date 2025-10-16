@@ -15,6 +15,15 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <div className="min-h-screen">
+      {/* Hidden form for Netlify detection - DO NOT REMOVE */}
+      <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
+        <input type="hidden" name="form-name" value="contact" />
+        <input name="bot-field" />
+        <input name="name" />
+        <input name="email" />
+        <input name="subject" />
+        <textarea name="message"></textarea>
+      </form>
       <Header />
       <div id="home">
         <Banner />
