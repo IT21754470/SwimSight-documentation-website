@@ -14,7 +14,7 @@ import {
 const milestones = [
   {
     title: "Project Proposal",
-    date: "September 15, 2024",
+    date: "Jan 15, 2025",
     description: "Initial research project proposal for SwimSight AI-powered swimming analytics platform.",
     marks: "10%",
     status: "completed",
@@ -30,7 +30,7 @@ const milestones = [
   },
   {
     title: "Progress Presentation-1",
-    date: "November 22, 2024",
+    date: "Apr 8, 2024",
     description: "First milestone presentation covering implementation of Performance Analytics and Injury Prevention modules.",
     marks: "15%",
     status: "completed",
@@ -46,7 +46,7 @@ const milestones = [
   },
   {
     title: "Progress Presentation-2",
-    date: "February 18, 2025",
+    date: "Sep 15, 2025",
     description: "Second milestone presentation showcasing Technique Analysis, Race Prediction, and Flutter app development.",
     marks: "30%",
     status: "completed",
@@ -62,7 +62,7 @@ const milestones = [
   },
   {
     title: "Final Report Submission",
-    date: "April 5, 2025",
+    date: "Oct 27, 2025",
     description: "Comprehensive documentation of SwimSight platform with all four AI modules and performance metrics.",
     marks: "25%",
     status: "completed",

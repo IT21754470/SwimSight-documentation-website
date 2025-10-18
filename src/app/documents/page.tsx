@@ -20,7 +20,7 @@ const documentCategories = [
       {
         title: "Proposal Reports",
         description: "Individual reports from all 4 team members",
-        link: "https://drive.google.com/drive/folders/1ZoMC-1Shay0hw5pxHSxG5GrIKyfYVt0f?usp=sharing",
+        link: "https://drive.google.com/drive/folders/1eqLU88o7ALVI6355jxIF8VFl3huokwMc?usp=sharing",
       }
     ]
   },
@@ -34,17 +34,17 @@ const documentCategories = [
       {
         title: "Proposal Presentation",
         description: "Initial project pitch presentation",
-        link: "https://drive.google.com/file/d/1iHF9ugOwUSf_O_8BMmJUGaQOgjYpmfiB/view?usp=sharing",
+        link: "https://drive.google.com/drive/folders/12F0mWhNeneNATZBTd3i9ZQPGE7iJwyuu",
       },
       {
         title: "Progress Presentation 1",
         description: "First milestone results and findings",
-        link: "https://drive.google.com/file/d/1xHvxDpr9nfxys4mrPqFbBSeEDeCNvXmi/view?usp=sharing",
+        link: "https://drive.google.com/drive/folders/12F0mWhNeneNATZBTd3i9ZQPGE7iJwyuu?usp=sharing",
       },
       {
         title: "Progress Presentation 2",
         description: "Second milestone results and updates",
-        link: "https://drive.google.com/file/d/1qT7HGKzEh5IA1yIIolfzzJldhsRti8x-/view?usp=sharing",
+        link: "https://drive.google.com/drive/folders/17f6FeX2wHoJtHMiAHQ6EEmuKeA8OJ5xr?usp=sharing",
       }
     ]
   },
@@ -58,7 +58,7 @@ const documentCategories = [
       {
         title: "Team Log Books",
         description: "Weekly logs from all 4 team members",
-        link: "https://drive.google.com/drive/folders/1e61oX9hr2rthg-Ip1MDWEjTEyEmxtS4w?usp=sharing",
+        link: "https://drive.google.com/drive/folders/1U6-x5iD8sO_QVuZ1YG52vZ98C-cWBN3K?usp=sharing",
       }
     ]
   },
@@ -72,7 +72,7 @@ const documentCategories = [
       {
         title: "Final Reports",
         description: "Complete documentation of research findings",
-        link: "https://drive.google.com/drive/folders/1Kp6md9pZyfcVi4ycUSohb5GKEVWwPAMG?usp=sharing",
+        link: "https://drive.google.com/drive/folders/1zilSA0_aFerI8a7vdDfIwWWyRlqEZePf?usp=sharing",
       }
     ]
   },
@@ -86,7 +86,7 @@ const documentCategories = [
       {
         title: "Published Paper",
         description: "Academic publication of our research",
-        link: "https://drive.google.com/file/d/19aMGRKijwX5LLJdjddWzKU1vnygGFNWs/view?usp=sharing",
+        link: "https://drive.google.com/drive/folders/1sjhcYN1Q4kkDu4cu0T-VcvCgNePPLcMl?usp=sharing",
       }
     ]
   },

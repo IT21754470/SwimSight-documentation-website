@@ -11,42 +11,42 @@ const documents = [
     title: "Project Proposal",
     description: "Initial research project proposal including problem statement and objectives.",
     icon: <FileText className="h-10 w-10" />,
-    link: "https://drive.google.com/drive/folders/1ZoMC-1Shay0hw5pxHSxG5GrIKyfYVt0f?usp=sharing",
+    link: "https://drive.google.com/drive/folders/1eqLU88o7ALVI6355jxIF8VFl3huokwMc?usp=sharing",
     color: "var(--color-primary-light)"
   },
   {
     title: "Progress Presentation 1",
     description: "First milestone presentation covering initial implementation and findings.",
     icon: <File className="h-10 w-10" />,
-    link: "https://drive.google.com/file/d/1xHvxDpr9nfxys4mrPqFbBSeEDeCNvXmi/view?usp=sharing",
+    link: "https://drive.google.com/drive/folders/12F0mWhNeneNATZBTd3i9ZQPGE7iJwyuu?usp=sharing",
     color: "var(--color-primary-dark)" 
   },
   {
     title: "Progress Presentation 2",
     description: "Second milestone presentation with updated results and adjustments.",
     icon: <File className="h-10 w-10" />,
-    link: "https://drive.google.com/file/d/1qT7HGKzEh5IA1yIIolfzzJldhsRti8x-/view?usp=sharing",
+    link: "https://drive.google.com/drive/folders/17f6FeX2wHoJtHMiAHQ6EEmuKeA8OJ5xr?usp=sharing",
     color: "var(--color-primary-dark)"
   },
   {
     title: "Research Paper",
     description: "Academic paper detailing the methodology, experiments, and outcomes.",
     icon: <Book className="h-10 w-10" />,
-    link: "https://drive.google.com/file/d/19aMGRKijwX5LLJdjddWzKU1vnygGFNWs/view?usp=sharing",
+    link: "https://drive.google.com/drive/folders/1sjhcYN1Q4kkDu4cu0T-VcvCgNePPLcMl?usp=sharing",
     color: "var(--color-primary-dark)"
   },
   {
     title: "Final Reports",
     description: "Comprehensive documentation of the entire research project.",
     icon: <FileSpreadsheet className="h-10 w-10" />,
-    link: "https://drive.google.com/drive/folders/1Kp6md9pZyfcVi4ycUSohb5GKEVWwPAMG?usp=sharing",
+    link: "https://drive.google.com/drive/folders/1zilSA0_aFerI8a7vdDfIwWWyRlqEZePf?usp=sharing",
     color: "var(--color-primary)"
   },
   {
     title: "Log Books",
     description: "Detailed records of research activities and experiments.",
     icon: <FileCode className="h-10 w-10" />,
-    link: "https://drive.google.com/drive/folders/1e61oX9hr2rthg-Ip1MDWEjTEyEmxtS4w?usp=sharing",
+    link: "https://drive.google.com/drive/folders/1U6-x5iD8sO_QVuZ1YG52vZ98C-cWBN3K?usp=sharing",
     color: "var(--color-primary-light)"
   }
 ];

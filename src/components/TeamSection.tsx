@@ -8,64 +8,63 @@ import { Github, Linkedin, Mail, Award, GraduationCap } from "lucide-react";
 
 const supervisors = [
   {
-    name: "Dr. Sanvitha Kasthuriarachchi",
-    role: "Assistant Professor",
+    name: "Dr. Prasanna Sumathipala",
+    role: " Professor",
     designation: "Supervisor",
     image: "/supervisor.png",
     bio: "PhD in Computer Science",
     qualification: "PhD in Computer Science",
-    linkedin: "https://www.linkedin.com/in/sanvitha-kasthuriarachchi-31b50a37/?originalSubdomain=lk",
-    email: "mailto:sanvitha.k@sliit.lk",
+    linkedin: "https://www.linkedin.com/in/prasanna-s-haddela-2751037/",
+    email: "prasanna.s@sliit.lk",
     type: "supervisor"
   },
   {
-    name: "Ms. Lokesha Weerasinghe",
-    role: "Senior Lecturer", 
+    name: "Ms. Shashini Kumarasinghe",
+    role: "Assistent Lecturer", 
     designation: "Co-supervisor",
-    image: "/co-supervisor.jpg",
-    bio: "M.Sc. Degree in Information Technology",
-    qualification: "M.Sc. in Information Technology",
-    linkedin: "https://www.linkedin.com/in/lokesha-weerasinghe-3a4478154/",
-    email: "mailto:lokesha.w@sliit.lk",
-    type: "supervisor"
-  }
+    image: "/co-supervisor.png",
+    bio: "B.Sc. Degree in Information Technology",
+    qualification: "B.Sc. in Information Technology",
+    linkedin: "https://www.sliit.lk/faculty-of-computing/staff/shashini.ku/",
+    email: "shashini.ku@sliit.lk",
+    type: "C0-supervisor"
+  }
 ];
-
 const students = [
   {
     name: "Sathmini Subasinghe",
     role: "Trainee QA Engineer",
     designation: "Research Team Member",
     image: "/member1.jpg",  
-    bio: "Software engineering undergraduate at SLIIT",
-    qualification: "Undergraduate in Software Engineering",
-    github: "https://github.com/ImeshR",
-    linkedin: "https://www.linkedin.com/in/eshan-imesh-17a642215/",
-    email: "mailto:it21233562@my.sliit.lk",
+    bio: "Information Technology undergraduate at SLIIT",
+    qualification: "Undergraduate in Information Technology",
+    github: "https://github.com/IT21754470",
+    linkedin: "www.linkedin.com/in/sathmini-subasinghe-8649022a1",
+    email: "it21754470@my.sliit.lk",
     type: "student"
   },
   {
     name: "Sashini",
-    role: "Junior Full Stack Developer",
+    role: "Trainee QA Engineer",
     designation: "Research Team Member",
     image: "/member2.jpg",
-    bio: "Software engineering undergraduate at SLIIT",
-    qualification: "Undergraduate in Software Engineering",
-    github: "https://github.com/SarangaSiriwardhana9",
-    linkedin: "https://www.linkedin.com/in/saranga-siriwardhana-409494218/",
-    email: "mailto:lasindusaranga99@gmail.com",
+    bio: "Information Technology undergraduate at SLIIT",
+    qualification: "Undergraduate in Information Technology",
+    github: "https://github.com/it21807626",
+    linkedin: "https://www.linkedin.com/in/sashini-wickramagedara/",
+    email: "it21807626@my.sliit.lk",
     type: "student"
   },
   {
     name: "Ishani",
-    role: "Trainee AI/ML Engineer",
+    role: "Trainee QA Engineer",
     designation: "Research Team Member",
     image: "/member3.jpg",
-    bio: "Software engineering undergraduate at SLIIT",
-    qualification: "Undergraduate in Software Engineering",
-    github: "https://github.com/umeshdewasinghe",
-    linkedin: "https://www.linkedin.com/in/umesh-dewsinghe-896993217/",
-    email: "mailto:it21165184@my.sliit.lk",
+    bio: "Information Technology undergraduate at SLIIT",
+    qualification: "Undergraduate in Information Technology",
+    github: "https://github.com/Ishaniramanayake",
+    linkedin: "https://www.linkedin.com/in/ishani-ramanayake-9a50b9284/",
+    email: "it21816840@my.sliit.lk",
     type: "student"
   },
   {
@@ -73,11 +72,10 @@ const students = [
     role: "Trainee Business Analyst",
     designation: "Research Team Member",
     image: "/member4.jpg",
-    bio: "Software engineering undergraduate at SLIIT",
-    qualification: "Undergraduate in Software Engineering",
-    github: "https://github.com/it21388248",
-    linkedin: "https://www.linkedin.com/in/kavindifernando/",
-    email: "mailto:kavi.fernando2001@gmail.com",
+    bio: "Information Technology undergraduate at SLIIT",
+    qualification: "Undergraduate in Information Technology",
+    github: "https://github.com/Randini1234",
+    email: "it21805646@my.sliit.lk",
     type: "student"
   }
 ];
