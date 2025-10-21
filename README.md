@@ -1,3 +1,4 @@
+# SwimSight
 🏊‍♂️ Swimming Performance Tracker
 A comprehensive Flutter mobile application for swimmers to track training sessions, analyze performance metrics, and monitor personal records. Built with Firebase backend for real-time data synchronization and user authentication.
 📱 Features
