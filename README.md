@@ -1,104 +1,158 @@
-# BetelCare - Smart Farming Solution
+🏊‍♂️ Swimming Performance Tracker
+A comprehensive Flutter mobile application for swimmers to track training sessions, analyze performance metrics, and monitor personal records. Built with Firebase backend for real-time data synchronization and user authentication.
+📱 Features
+Core Functionality
 
-A comprehensive web platform for the BetelCare research project, showcasing an AI-powered mobile application designed specifically for Sri Lankan betel farmers.
+Training Session Management
 
-## Project Overview
+Add, view, and manage swimming training sessions
+Track multiple metrics: distance, time, pace, heart rate, laps
+Support for different stroke types (Freestyle, Backstroke, Breaststroke, Butterfly)
+Multiple pool lengths (25m, 50m)
+Date-based session logging
 
-**BetelCare** is a machine learning-powered mobile application developed to support betel farmers by offering real-time insights, predictive analytics, and interactive assistance. This repository contains the web platform built with **Next.js** that showcases the research, features, and documentation of the BetelCare project.
 
-## Key Features
+Personal Records Tracking
 
-- **Harvest Prediction**: AI-powered yield forecasting for optimized planning  
-- **Disease Detection**: Early identification of leaf issues with CNN technology  
-- **Market Insights**: Data-driven price predictions for maximum profit  
-- **Weather Recommendations**: Climate-based farming advice for better yields  
+Automatic detection of new personal bests
+Real-time PR celebrations with animated dialogs
+Performance history for each stroke/distance combination
+Grouped view by stroke type
+Trend analysis and improvement statistics
 
-## Technology Stack
 
-- **Frontend**: Next.js 15, TypeScript, Tailwind CSS  
-- **UI Components**: Shadcn UI, Framer Motion, Lucide Icons  
-- **Mobile App**: Flutter, TensorFlow Lite  
-- **Backend**: Flask, Python  
-- **Machine Learning**: TensorFlow, PyTorch, Scikit-learn  
+Performance Analytics
 
-## Research Team
+AI-powered swimmer insights
+Turn and start analysis
+Kick technique analysis
+Injury risk prediction
+Performance trends over time
 
-**Students**:  
-- W.E.I. Ranawaka  
-- U.H. Dewasinghe  
-- B.K.M. Fernando  
-- E.A.L.S. Siriwardhana  
 
-**Supervisors**:  
-- Sanvitha Kasthuriarachchi  
-- Lokesha Weerasinghe  
+User Profile
 
-**Institution**:  
-- Sri Lanka Institute of Information Technology  
+Personalized dashboard
+Total sessions, distance, and hours tracked
+Quick stats overview
+Profile customization
 
-## Getting Started
 
-### Prerequisites
+Competition Tracking
 
-- Node.js 18.x or later  
-- npm or yarn  
+Record competition results
+Compare competition vs training performance
+Competition history
 
-### Installation
 
-Clone the repository  
-```bash
-git clone https://github.com/your-username/betelcare-web.git
-cd betelcare-web
-```
 
-Install dependencies  
-```bash
-npm install
-# or
-yarn install
-```
+🛠️ Technology Stack
+Frontend
 
-Run the development server  
-```bash
-npm run dev
-# or
-yarn dev
-```
+Flutter - Cross-platform mobile development
+Dart - Programming language
+Material Design - UI/UX components
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Backend
 
-## Project Structure
+Firebase Authentication - User authentication and authorization
+Cloud Firestore - NoSQL database for real-time data storage
+Firebase Storage - Media file storage
 
-```
-betelcare-web/
-│
-├── public/             # Static assets
-├── src/
-│   ├── app/            # Next.js app directory
-│   ├── components/     # Reusable UI components
-│   ├── styles/         # Global styles
-│   └── utils/          # Utility functions
-│
-├── .gitignore
-├── package.json
-├── README.md
-└── tsconfig.json
-```
+Architecture
 
-## Deployment
+Service Layer Pattern - Separation of business logic
+Model-View Architecture - Clean code organization
+Real-time Data Sync - Firebase real-time listeners
+State Management - StatefulWidget with setState
 
-The project is deployed on **Vercel**. Any changes pushed to the `main` branch are automatically deployed.
+📂 Project Structure
+lib/
+├── models/
+│   ├── personal_best.dart          # Personal best performance model
+│   ├── training_session.dart       # Training session data model
+│   └── user_profile.dart           # User profile model
+├── screens/
+│   ├── home_screen.dart            # Main dashboard
+│   ├── add_training_session_screen.dart  # Add new session
+│   ├── personal_records_screen.dart      # View PRs
+│   ├── swimmer_insights_screen.dart      # AI insights
+│   ├── competitions_screen.dart          # Competition tracking
+│   ├── turn_start_analysis_screen.dart   # Turn/start analysis
+│   ├── injury_prediction_screen.dart     # Injury risk
+│   └── kick_analysis_screen.dart         # Kick technique
+├── services/
+│   ├── personal_bests_service.dart       # PR calculation logic
+│   ├── profile_service.dart              # User profile management
+│   └── training_session_service.dart     # Session management
+├── utils/
+│   └── stroke_utils.dart                 # Stroke type utilities
+└── main.dart                             # App entry point
+🚀 Getting Started
+Prerequisites
 
-## Research Paper
+Flutter SDK (3.0 or higher)
+Dart SDK (3.0 or higher)
+Android Studio / VS Code with Flutter extensions
+Firebase account
+Android device/emulator or iOS device/simulator
 
-A comprehensive research paper detailing our findings, methodology, and results is available in the **Documents** section of the website.
+Installation
 
-## License
+Clone the repository
 
-This project is licensed under the **MIT License** - see the [LICENSE](./LICENSE) file for details.
+bashgit clone https://github.com/yourusername/swimming-app.git
+cd swimming-app
 
-## Acknowledgements
+Install dependencies
 
-- Department of Information Technology, SLIIT  
-- Sri Lankan betel farmers for their valuable feedback and participation  
-- Sri Lanka Department of Meteorology for weather data  
+bashflutter pub get
+
+Firebase Setup
+
+Create a new Firebase project at Firebase Console
+Add Android/iOS app to your Firebase project
+Download google-services.json (Android) and GoogleService-Info.plist (iOS)
+Place them in the appropriate directories:
+
+Android: android/app/google-services.json
+iOS: ios/Runner/GoogleService-Info.plist
+
+
+
+
+Enable Firebase Services
+
+Authentication (Email/Password)
+Cloud Firestore
+Storage (if using media files)
+
+
+Configure Firestore Security Rules
+
+javascriptrules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /training_sessions/{sessionId} {
+      allow read: if request.auth != null && 
+                     resource.data.userId == request.auth.uid;
+      allow create: if request.auth != null && 
+                       request.resource.data.userId == request.auth.uid;
+      allow update, delete: if request.auth != null && 
+                               resource.data.userId == request.auth.uid;
+    }
+    
+    match /users/{userId} {
+      allow read, write: if request.auth != null && 
+                           request.auth.uid == userId;
+    }
+  }
+}
+
+Create Firestore Indexes
+
+Go to Firebase Console → Firestore → Indexes
+Create composite indexes:
+
+training_sessions: userId (ASC) + strokeType (ASC) + trainingDistance (ASC) + pacePer100m (ASC)
+training_sessions: userId (ASC) + date (DESC)
