@@ -171,7 +171,7 @@ export default function VideoSection() {
         >
           <div className="inline-flex flex-col sm:flex-row gap-4">
             <a
-              href="https://www.youtube.com/watch?v=2JoUbhKsYR0"
+              href="https://youtu.be/D0d9xhYju4Q"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg font-medium text-white shadow-lg transition-all hover:scale-105"
