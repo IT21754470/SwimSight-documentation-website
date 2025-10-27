@@ -154,7 +154,7 @@ export default function VideoSection() {
           <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-gray-900" style={{ paddingBottom: '56.25%' }}>
             <iframe
               className="absolute top-0 left-0 w-full h-full"
-              src="https://www.youtube.com/embed/2JoUbhKsYR0"
+              src="https://youtu.be/D0d9xhYju4Q"
               title="SwimSight App Demo"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
