@@ -48,6 +48,20 @@ const documents = [
     icon: <FileCode className="h-10 w-10" />,
     link: "https://drive.google.com/drive/folders/1U6-x5iD8sO_QVuZ1YG52vZ98C-cWBN3K?usp=sharing",
     color: "var(--color-primary-light)"
+  },
+  {
+    title: "Checklist1",
+    description: "Detailed records of research activities and experiments.",
+    icon: <FileCode className="h-10 w-10" />,
+    link: "https://drive.google.com/file/d/1W9REgT68K8ilxYPuXM0eHIKJamuNN0N4/view?usp=sharing",
+    color: "var(--color-primary-light)"
+  },
+  {
+    title: "Checklist2",
+    description: "Detailed records of research activities and experiments.",
+    icon: <FileCode className="h-10 w-10" />,
+    link: "https://docs.google.com/spreadsheets/d/1krze_ea-W_V197NS4oRpc2LhDOd3cDTK/edit?usp=sharing&ouid=111256149508958430882&rtpof=true&sd=true",
+    color: "var(--color-primary-light)"
   }
 ];
 
